@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(28, 29, 28, 0.533);
+  border-radius: 10px;
+}
+
+/* Basic styling for the select container */
+.select {
+  display: inline-block;
+  position: relative;
+}
+
+/* DropDown menu Styling */
+/* Styling for the select element */
+.select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #4c385c87; /* Background color of the dropdown */
+  color: white; /* Text color */
+  padding: 10px 40px 10px 15px; /* Padding for the dropdown */
+  border: 1px solid #71367b; /* Border styling */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  outline: none; /* No outline on focus */
+}
+
+/* Styling for the dropdown arrow */
+.select::after {
+  content: "\25BC"; /* Unicode for down arrow */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Prevents the arrow from blocking clicks */
+  color: white; /* Arrow color */
+  font-size: 12px; /* Arrow size */
+}
+
+/* Change background and border color on hover */
+
+/* .select select:hover {
+  background-color: #6556cd;
+  border-color: #d2d2d2;
+}  */
