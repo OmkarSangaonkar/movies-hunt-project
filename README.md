@@ -2,6 +2,10 @@
 
 Movies Hunt is a web application that allows users to search and browse information about movies, TV series, actors, directors, and more. The app fetches data from The Movie Database (TMDB) API and presents it in an easy-to-navigate interface.
 
+## Deployed Link
+
+[Movies Hunt](https://movies-hunt-project.vercel.app/)
+
 ## Features
 
 - **Home Page**:
