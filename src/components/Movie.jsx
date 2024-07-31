@@ -154,7 +154,7 @@ const Movie = () => {
           <TopNav />
         </div>
 
-        <div className="flex items-center w-[90%] ml-[-3%]">
+        <div className="flex items-center ml-[-3%]">
           <DropDown
             title="category"
             options={["popular", "top_rated", "upcoming", "now_playing"]}
